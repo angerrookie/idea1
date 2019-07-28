@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.muyu.pojo.School" table="school" schema="corporationservices">
+        <id name="scid">
+            <column name="scid"/>
+            <generator class="native"/>
+        </id>
+        <property name="scname">
+            <column name="scname"/>
+        </property>
+        <property name="address">
+            <column name="address"/>
+        </property>
+        <!--
+        inverse:控制关系反转  true ：表示反转  false:
+        -->
+        <set name="set" cascade="all" inverse="false">
+            <key>
+                <column name="scid" ></column>
+            </key>
+            <one-to-many class="com.muyu.pojo.Student"/>
+        </set>
+    </class>
+</hibernate-mapping>

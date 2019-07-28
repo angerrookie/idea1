@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.muyu.pojo.Account" table="account" schema="corporationservices">
+        <id name="accid">
+            <column name="accid"/>
+            <generator class="native"></generator>
+        </id>
+        <property name="accname" column="accname"/>
+        <property name="accpass" column="accpass"/>
+        <one-to-one name="detailByAccid" class="com.muyu.pojo.Detail"/>
+    </class>
+</hibernate-mapping>

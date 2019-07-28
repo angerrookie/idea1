@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.muyu.pojo.User" table="user" schema="corporationservices">
+        <id name="userId" column="user_id"/>
+        <property name="stuNumber" column="stu_number"/>
+        <property name="userName" column="user_name"/>
+        <property name="userPass" column="user_pass"/>
+        <property name="userEmail" column="user_email"/>
+        <property name="userSchool" column="user_school"/>
+        <property name="userProfession" column="user_profession"/>
+        <property name="userPhone" column="user_phone"/>
+        <property name="societyPosition" column="society_position"/>
+        <property name="societyDept" column="society_dept"/>
+        <property name="gender" column="gender"/>
+    </class>
+    <sql-query name="sql">
+        <return alias="User" class="com.muyu.pojo.User" ></return>
+        select * from User
+    </sql-query>
+    <query name="hql">
+        from User
+    </query>
+</hibernate-mapping>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.muyu.pojo.Detail" table="detail" schema="corporationservices">
+        <id name="accid">
+            <column name="accid"/>
+            <generator class="foreign">
+                <param name="property">accountByAccid</param>
+            </generator>
+        </id>
+        <property name="username" column="username"/>
+        <property name="birthday" column="birthday"/>
+        <property name="email" column="email"/>
+        <one-to-one name="accountByAccid" class="com.muyu.pojo.Account"/>
+    </class>
+</hibernate-mapping>
