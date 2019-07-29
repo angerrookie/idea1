@@ -19,5 +19,6 @@
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="antlr-2.7.7" level="project" />
+    <orderEntry type="library" name="ehcache-2.10.3" level="project" />
   </component>
 </module>
