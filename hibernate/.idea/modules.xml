@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/hibernate.iml" filepath="$PROJECT_DIR$/.idea/hibernate.iml" />
       <module fileurl="file://$PROJECT_DIR$/../hibernate1/hibernate1.iml" filepath="$PROJECT_DIR$/../hibernate1/hibernate1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hibernate2/hibernate2.iml" filepath="$PROJECT_DIR$/../hibernate2/hibernate2.iml" />
       <module fileurl="file://$PROJECT_DIR$/../nowcode/nowcode.iml" filepath="$PROJECT_DIR$/../nowcode/nowcode.iml" />
     </modules>
   </component>

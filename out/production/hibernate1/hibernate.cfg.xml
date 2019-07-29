@@ -10,6 +10,13 @@
         <property name="connection.password">root</property>
         <property name="show_sql">true</property>
 
+        <!--开启二级缓存-->
+        <property name="hibernate.cache.use_second_level_cache">true</property>
+        <!--配置支持二级缓存的支持类-->
+        <property name="hibernate.cache.region.factory_class">org.hibernate.cache.ehcache.internal.SingletonEhcacheRegionFactory</property>
+        <!--开启query缓存-->
+        <property name="hibernate.cache.use_query_cache">true</property>
+
         <mapping class="com.muyu.pojo.Project"/>
         <mapping resource="com/muyu/pojo/Project.hbm.xml"/>
 

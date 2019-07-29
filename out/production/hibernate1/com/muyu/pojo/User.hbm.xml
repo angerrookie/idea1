@@ -5,6 +5,7 @@
 <hibernate-mapping>
 
     <class name="com.muyu.pojo.User" table="user" schema="corporationservices">
+        <cache usage="read-only"></cache>
         <id name="userId" column="user_id"/>
         <property name="stuNumber" column="stu_number"/>
         <property name="userName" column="user_name"/>

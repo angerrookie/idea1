@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="ehcache-2.10.3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../hibernate1/lib/ehcache-2.10.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../hibernate1/lib/hibernate-ehcache-5.3.10.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../hibernate1/lib/slf4j-api-1.7.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
