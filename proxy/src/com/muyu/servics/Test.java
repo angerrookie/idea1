@@ -10,9 +10,12 @@ package com.muyu.servics;
 public class Test {
     public static void main(String[] args){
 
-       ISale iSale = new Sale();
-       ISale iSale1 = new SaleProxy(iSale);
-       iSale1.sale();
+//       ISale iSale = new Sale();
+//       ISale iSale1 = new SaleProxy(iSale);
+//       iSale1.sale();
 
+        IUser iUser = new UserService();
+        IUser iUser1 = new SaleProxy((UserService) iUser);
+        iUser1.login("1111", "3333");
     }
 }

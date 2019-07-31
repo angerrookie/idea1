@@ -6,6 +6,9 @@ import com.muyu.servics.IUser;
 import com.muyu.servics.Sale;
 import com.muyu.servics.UserService;
 
+import java.util.ArrayList;
+import java.util.LinkedList;
+
 /**
  * Test
  * @author aRookie
@@ -23,6 +26,6 @@ public class Test {
         IUser iUser = new UserService();
         IUser iUser1 = (IUser) proxyBeanFactory.newProxy(iUser);
         iUser1.login("123", "123");
-
+        
     }
 }
