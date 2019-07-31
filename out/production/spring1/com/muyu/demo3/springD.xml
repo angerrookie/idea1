@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+        <bean id="d" class="com.muyu.demo3.D">
+            <!--<property name="map">-->
+                <!--<map>-->
+                    <!--<entry key="key1">-->
+                        <!--<value>111</value>-->
+                    <!--</entry>-->
+                    <!--<entry key="key2">-->
+                        <!--<value>111</value>-->
+                    <!--</entry>-->
+                    <!--<entry key="key3">-->
+                        <!--<value>111</value>-->
+                    <!--</entry>-->
+                <!--</map>-->
+            <!--</property>-->
+            <!--<property name="list">-->
+                <!--<list>-->
+                    <!--<value>1111</value>-->
+                    <!--<value>1111</value>-->
+                    <!--<value>1111</value>-->
+                <!--</list>-->
+            <!--</property>-->
+            <!--<property name="set">-->
+                <!--<set>-->
+                    <!--<value>111</value>-->
+                    <!--<value>333</value>-->
+                    <!--<value>222</value>-->
+                <!--</set>-->
+            <!--</property>-->
+            <!--<property name="arr">-->
+                <!--<array>-->
+                    <!--<value>1111</value>-->
+                    <!--<value>555</value>-->
+                    <!--<value>366</value>-->
+                <!--</array>-->
+            <!--</property>-->
+            <property name="prop">
+                <props>
+                    <prop key="key1">111</prop>
+                    <prop key="key1">322</prop>
+                    <prop key="key1">546</prop>
+                </props>
+            </property>
+        </bean>
+</beans>

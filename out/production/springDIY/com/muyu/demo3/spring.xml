@@ -1,0 +1,24 @@
+<beans xmlns="http://www.springframework.org/schema/beans">
+    <!--GrayDisplay grayDisplay = new GrayDisplay();-->
+
+    <bean id="grayDisplay" class="com.muyu.demo3.GrayDisplay">
+        <property name="brand" value="神舟"></property>
+    </bean>
+    <bean id="colorDisplay" class="com.muyu.demo3.ColorDisplay">
+        <property name="brand" value="苹果"></property>
+    </bean>
+
+    <bean id="lowDisk" class="com.muyu.demo3.LowDisk">
+        <property name="size" value="500G"></property>
+    </bean>
+    <bean id="highDisk" class="com.muyu.demo3.HighDisk">
+        <property name="size" value="1T"></property>
+    </bean>
+    <!--Computer computer = new Computer()-->
+
+    <bean id="computer" class="com.muyu.demo3.Computer">
+        <!--computer.setDisk(lowDisk)-->
+        <property name="disk" ref="lowDisk"></property>
+        <property name="display" ref="grayDisplay"></property>
+    </bean>
+</beans>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+        <bean id="person" class="com.muyu.demo4.Person" abstract="true">
+            <property name="address" value="西安"></property>
+            <property name="school" value="文都"></property>
+            <property name="sex" value="男"></property>
+        </bean>
+
+        <bean id="student" class="com.muyu.demo4.Student" parent="person">
+            <property name="name" value="小明"></property>
+        </bean>
+        <bean id="teacher" class="com.muyu.demo4.Teacher" parent="person">
+            <property name="sid" value="1"></property>
+        </bean>
+</beans>
