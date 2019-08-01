@@ -1,0 +1,54 @@
+<component name="libraryTable">
+  <library name="spring-core-5.0.0.RELEASE-javadoc">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../springAOP/lib/spring-expression-5.0.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../springAOP/lib/spring-instrument-5.0.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../springAOP/lib/spring-jcl-5.0.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../springAOP/lib/spring-jdbc-5.0.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../springAOP/lib/spring-jms-5.0.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../springAOP/lib/spring-messaging-5.0.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../springAOP/lib/spring-orm-5.0.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../springAOP/lib/spring-oxm-5.0.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../springAOP/lib/spring-test-5.0.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../springAOP/lib/spring-tx-5.0.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../springAOP/lib/spring-web-5.0.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../springAOP/lib/spring-webflux-5.0.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../springAOP/lib/spring-webmvc-5.0.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../springAOP/lib/spring-websocket-5.0.0.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../springAOP/lib/spring-core-5.0.0.RELEASE-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../springAOP/lib/spring-expression-5.0.0.RELEASE-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../springAOP/lib/spring-instrument-5.0.0.RELEASE-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../springAOP/lib/spring-jcl-5.0.0.RELEASE-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../springAOP/lib/spring-jdbc-5.0.0.RELEASE-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../springAOP/lib/spring-jms-5.0.0.RELEASE-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../springAOP/lib/spring-messaging-5.0.0.RELEASE-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../springAOP/lib/spring-orm-5.0.0.RELEASE-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../springAOP/lib/spring-oxm-5.0.0.RELEASE-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../springAOP/lib/spring-test-5.0.0.RELEASE-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../springAOP/lib/spring-tx-5.0.0.RELEASE-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../springAOP/lib/spring-web-5.0.0.RELEASE-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../springAOP/lib/spring-webflux-5.0.0.RELEASE-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../springAOP/lib/spring-webmvc-5.0.0.RELEASE-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../springAOP/lib/spring-websocket-5.0.0.RELEASE-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../springAOP/lib/spring-core-5.0.0.RELEASE-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../springAOP/lib/spring-expression-5.0.0.RELEASE-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../springAOP/lib/spring-instrument-5.0.0.RELEASE-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../springAOP/lib/spring-jcl-5.0.0.RELEASE-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../springAOP/lib/spring-jdbc-5.0.0.RELEASE-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../springAOP/lib/spring-jms-5.0.0.RELEASE-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../springAOP/lib/spring-messaging-5.0.0.RELEASE-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../springAOP/lib/spring-orm-5.0.0.RELEASE-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../springAOP/lib/spring-oxm-5.0.0.RELEASE-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../springAOP/lib/spring-test-5.0.0.RELEASE-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../springAOP/lib/spring-tx-5.0.0.RELEASE-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../springAOP/lib/spring-web-5.0.0.RELEASE-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../springAOP/lib/spring-webflux-5.0.0.RELEASE-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../springAOP/lib/spring-webmvc-5.0.0.RELEASE-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../springAOP/lib/spring-websocket-5.0.0.RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

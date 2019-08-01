@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="commons-logging-1.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../springAOP/lib/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../springAOP/lib/log4j-1.2.16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../springAOP/lib/aspectjweaver-1.8.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

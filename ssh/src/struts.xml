@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    <constant name="struts.objectFactory" value="spring"></constant>
+    <package name="default" extends="struts-default">
+        <!-- <action name="reg" class="com.wdzl.action.UserAction" method="register">
+             <result name="success" type="redirect">index.jsp</result>
+         </action> -->
+        <action name="register" class="userAction" method="register">
+            <result name="success" type="redirect">index.jsp</result>
+        </action>
+    </package>
+</struts>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+	http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/aop
+    http://www.springframework.org/schema/aop/spring-aop.xsd
+    ">
+    <!--业务类（被代理类）-->
+    <bean id="user"  class="com.muyu.service.UserService"></bean>
+    <bean id="sal" class="com.muyu.service.Sale"></bean>
+    <!--日志通知Bean-->
+    <bean id="before" class="com.muyu.advice.Before"></bean>
+    <bean id="after" class="com.muyu.advice.After"></bean>
+    <bean id="advice" class="com.muyu.advice.AdviceThrows"></bean>
+
+    <!--&lt;!&ndash;代理Bean&ndash;&gt;-->
+    <!--<bean id="proxy" class="org.springframework.aop.framework.ProxyFactoryBean">-->
+         <!--<property name="target">-->
+            <!--<ref bean="user"></ref>-->
+        <!--</property>-->
+    <!--&lt;!&ndash;注入通知&ndash;&gt;-->
+        <!--<property name="interceptorNames">-->
+            <!--<list>-->
+                 <!--<value>before</value>-->
+                <!--<value>after</value>-->
+                <!--<value>advice</value>-->
+            <!--</list>-->
+        <!--</property>-->
+    <!--</bean>-->
+
+    <aop:config>
+        <aop:pointcut id="mypoint" expression="execution(public * com.muyu.service..*.*(..))"></aop:pointcut>
+        <aop:advisor advice-ref="before" pointcut-ref="mypoint"></aop:advisor>
+    </aop:config>
+
+
+</beans>
